@@ -9,6 +9,10 @@ body {
   font-family: aileron, sans-serif;
 }
 
+/* Mobile Breakpoint Styling */
+
+/* Nav Styling */
+
 .logo {
   width: 20%;
 }
@@ -23,7 +27,7 @@ body {
 nav {
   background-color: #25283d;
   width: 100vw;
-  min-height: 8vh;
+  min-height: 10vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -43,13 +47,14 @@ nav {
   transition: height 0.7s ease;
 }
 
+.active {
+  height: 40vh;
+}
+
 .nav-links li {
   opacity: 0;
 }
 
-.active {
-  height: 40vh;
-}
 
 @keyframes navLinkFade {
   from {
@@ -82,4 +87,14 @@ li a {
   height: 2px;
   margin: 5px;
   transition: all 0.4s ease;
+}
+
+.toggle .line1 {
+  transform: rotate(-45deg) translate(-5px, 5px);
+}
+.toggle .line2 {
+  opacity: 0;
+}
+.toggle .line3 {
+  transform: rotate(45deg) translate(-5px, -5px);
 }
