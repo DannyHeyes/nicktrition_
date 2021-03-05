@@ -158,6 +158,7 @@ li a {
   padding-top: 10%;
   display: grid;
   grid-row-gap: 5px;
+  overflow: hidden;
 }
 
 .about-section h2 {
