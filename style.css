@@ -230,7 +230,6 @@ hr {
 
 .about-link {
   color: var(--main-text);
-  text-decoration: none;
   font-size: 0.8rem;
   position: relative;
   top: 10%;
@@ -240,7 +239,7 @@ hr {
 /* YouTube Div */
 
 .youtube {
-  min-height: 40vh;
+  min-height: 45vh;
   background: var(--background);
 }
 
