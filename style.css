@@ -153,20 +153,11 @@ li a {
 /* Services / About Section  */
 .about-section {
   width: 100vw;
+  min-height: 50vh;
   background: var(--background);
   padding-top: 10%;
   display: grid;
   grid-row-gap: 5px;
-}
-
-.card {
-  min-height: 25vh;
-  width: 90vw;
-  background: inherit;
-  margin-left: 5%;
-
-  position: relative;
-  top: 10%;
 }
 
 .about-section h2 {
@@ -187,7 +178,10 @@ button {
   text-align: left;
   margin: 5px 10px;
   padding: 10px;
+}
 
+button:hover {
+  cursor: pointer;
 }
 
 button:focus {
@@ -211,7 +205,7 @@ button:focus {
 }
 
 .panelActive {
-  max-height: 10vh;
+  max-height: 15vh;
 }
 
 hr {
@@ -220,6 +214,7 @@ hr {
   width: 90%;
   margin-left: 5%;
 }
+
 .arrow {
   width: 15px;
   float: right;
@@ -230,4 +225,34 @@ hr {
 
 .arrowActive {
   transform: scaleY(-1);
+}
+
+.about-link {
+  color: var(--main-text);
+  text-decoration: none;
+  font-size: 0.8rem;
+  position: relative;
+  top: 10%;
+  left: 5%;
+}
+
+/* YouTube Div */
+
+.youtube {
+  min-height: 40vh;
+  background: var(--background);
+}
+
+.youtube h3 {
+  color: var(--main-text);
+  margin: 8% 5% 5%;
+}
+
+.youtube iframe {
+  margin-left: 2.5%;
+}
+
+.youtube span {
+  text-decoration: underline;
+  text-transform: uppercase;
 }
