@@ -112,7 +112,7 @@ li a {
 /* Content Styling  */
 .wrapper {
   width: 100vw;
-  height: 80vh;
+  height: 70vh;
   background-color: var(--background);
   display: flex;
   justify-content: center;
