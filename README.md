@@ -1,3 +1,2 @@
-Nicktrition is an online nutition conmpany. They provide custom nutrition programs for high performance, weight loss and muscle gain. 
-
-With this company, there was a small design breif from the client with colours, and what they wanted to be included on the site. It needed to be accessed easily on mobile devices, so that was the main viewport that was built first. 
+Nicktrition is an online nutrition company. They provide custom nutrition programs for high performance, weight loss and muscle gain.
+With this company, there was a small design brief from the client with colours, and what they wanted to be included on the site. It needed to be accessed easily on mobile devices as a lot of client traffic comes from social media sites. This meant that the site was built mobile-first.  
