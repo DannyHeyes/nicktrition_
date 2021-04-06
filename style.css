@@ -339,7 +339,7 @@ footer p {
   /* Hero Styling */
 
   .hero-section {
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 48% 52%;
   }
 
   .nick-image {
@@ -400,6 +400,13 @@ footer p {
   }
 
   /* Hero Styling */
+
+  .title {
+    font-size: 4em;
+  }
+  .sub-title {
+    font-size: 1.1em;
+  }
 
   /* About Styling  */
 
