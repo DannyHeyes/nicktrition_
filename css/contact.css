@@ -111,6 +111,10 @@ li a {
 
 /* Content Styling */
 
+main {
+  min-height: 80vh;
+}
+
 h1 {
   color: var(--main-text);
   width: 90%;
