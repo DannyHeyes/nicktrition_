@@ -63,6 +63,8 @@ nav {
 .nav-links li {
   opacity: 0;
   color: var(--main-text);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 @keyframes navLinkFade {
@@ -230,4 +232,26 @@ footer p {
 
 .i-youtube {
   margin-top: 10px;
+}
+
+@media screen and (min-width: 850px) {
+  /* NavBar Styling */
+
+  .logo img {
+    width: 50px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .nav-links {
+    height: 10vh;
+    top: 0;
+    width: 30%;
+  }
+
+  .nav-links li {
+    opacity: 1;
+  }
 }

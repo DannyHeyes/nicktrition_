@@ -62,6 +62,8 @@ nav {
 .nav-links li {
   opacity: 0;
   color: var(--main-text);
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 @keyframes navLinkFade {
