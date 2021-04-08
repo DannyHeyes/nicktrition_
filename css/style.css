@@ -13,6 +13,7 @@
 
 body {
   font-family: aileron, sans-serif;
+  overflow-x: hidden;
 }
 
 /* Mobile Breakpoint Styling */

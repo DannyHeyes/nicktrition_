@@ -14,6 +14,7 @@
 body {
   font-family: aileron, sans-serif;
   background: var(--background);
+  overflow-x: hidden;
 }
 
 /* Mobile Breakpoint Styling */
