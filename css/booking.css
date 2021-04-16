@@ -113,6 +113,10 @@ li a {
 
 /* Content Styling */
 
+.wrapper {
+  min-height: 80vh;
+}
+
 h1 {
   color: var(--main-text);
   margin: 10px auto;
