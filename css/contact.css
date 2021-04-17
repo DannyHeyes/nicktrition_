@@ -91,7 +91,7 @@ li a {
 
 .booking-link {
   border: 3px solid var(--content);
-  padding: 10px 25px;
+  padding: 15px 50px;
 }
 
 .burger {
@@ -299,6 +299,10 @@ footer p {
 
   .nav-links li {
     opacity: 1;
+  }
+
+  .booking-link {
+    padding: 10px 25px;
   }
 
   .booking-link:hover {

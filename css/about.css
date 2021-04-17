@@ -265,6 +265,10 @@ footer p {
     opacity: 1;
   }
 
+  .booking-link {
+    padding: 15px 50px;
+  }
+
   .booking-link:hover {
     background: var(--highlight);
     color: var(--background);
